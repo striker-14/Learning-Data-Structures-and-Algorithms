@@ -1,8 +1,12 @@
+/*
+Q5. Print from n to 1 (Using Backtracking).
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
 void printBacktracking(int k, int n) {
-    if (k <= 10) {
+    if (k <= n) {
         printBacktracking(k+1, n);
         cout << k << endl;
     } else {

@@ -1,6 +1,11 @@
+/*
+Q9. Check if a string is palindrome (a string on reversal reads the same).
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
 //Using Single Variable
 bool isPalindrome(string str, int i) {
     
@@ -27,8 +32,10 @@ int main() {
 
     return 0;
 }
+*/
+
 // Using Two Pointers
-/* bool isPalindrome(string str, int l, int r) {
+bool isPalindrome(string str, int l, int r) {
 
     if (l >= r) {
         return true;
@@ -54,4 +61,4 @@ int main() {
     }
 
     return 0;
-} */
+}

@@ -1,3 +1,7 @@
+/*
+Q2. Print linearly from 1 to n.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

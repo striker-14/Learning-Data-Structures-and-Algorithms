@@ -1,3 +1,7 @@
+/*
+Q1. Print name 5 times.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
