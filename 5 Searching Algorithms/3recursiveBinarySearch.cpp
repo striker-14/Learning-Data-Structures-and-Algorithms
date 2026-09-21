@@ -1,3 +1,7 @@
+/*
+Recursive Binary Search Algorithm: Create a recursive function and compare the mid of the search space with the key. And based on the result either return the index where the key is found or call the recursive function for the next search space.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
