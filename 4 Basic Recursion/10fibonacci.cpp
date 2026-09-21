@@ -1,5 +1,5 @@
 /*
-Q10. Fibonacci.a
+Q10. Fibonacci.
 */
 
 #include <bits/stdc++.h>
