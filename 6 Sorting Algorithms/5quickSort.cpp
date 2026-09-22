@@ -1,3 +1,19 @@
+/*
+Quick Sort: Sorting algorithm based on the Divide and Conquer that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array.
+
+1. Choose a pivot: Select an element from the array as the pivot.
+
+2. Partition the Array: Rearrange the array around the pivot. After partitioning, all elements smaller than the pivot will be on its left, and all elements greater than the pivot will be on its right. The pivot is then in its correct position, and we obtain the index of the pivot.
+
+3. Recursively Call: Recursively apply the same process to the two partitioned sub-arrays (left and right of the pivot).
+
+4. Base Case: The recursion stops when there is only one element left in the sub-array, as single element is already sorted.
+
+Choice of Pivot: Always pick the last element as pivot. # The problem with this approach is it ends up in the worst case when the array is already sorted.
+
+# Efficient for large datasets
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

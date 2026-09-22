@@ -1,3 +1,15 @@
+/*
+sort() in C++ STL: In C++, sort() is a built-in function, used to sort the given range in desired order. It only works on data structures that provide random access to its elements such as vectors and arrays.
+
+sort(first, last, comp);
+
+- first: Iterator to the beginning of the range to be sorted.
+
+- last: Iterator to element just after the end of the range.
+
+-comp (optional): Binary function, functor, or lambda expression that compares two elements in the range. By default, it is set as < operator so the sort() function sorts the data in ascending order.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

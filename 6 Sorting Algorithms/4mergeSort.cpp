@@ -1,3 +1,19 @@
+/*
+Merge Sort: Sorting algorithm that follows the divide and conquer approach. It works by recursively dividing the input array into smaller subarrays then merging them back together to obtain the sorted array.
+
+1. Divide: Divide the list or array recursively into two halves until it can no more be sorted.
+
+2. Conquer: Each subarray is sorted individually using the merge sort algorithm.
+
+3. Merge: The sorted subarrays are merged back together in sorted order. The process continues until all elements from both subarrays have been merged.
+
+Used for sorting large datasets.
+
+Requires additional memory to store the merged sub-arrays during the sorting process. (Not and in-place sorting algorithm, which means it requires additional memory to store the sorted data)
+
+# Slower than Quick Sort
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
